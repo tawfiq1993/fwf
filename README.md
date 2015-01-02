@@ -8,20 +8,24 @@ Some people have trouble coming to grips with what the widths element does when 
 
 The first file we are playing with, simple.txt, consists of three rows of the numerals 1 to 9 and the letter A.
 
+
 ´´´
 123456789A
 123456789A
 123456789A
 ´´´
+
 So the first character in each line is the 1, the second is the 2, the tenth is the A.
 
 if you have not forked this repo, the file should be able to be downloaded to your working directory with the commands:
 
-´´´
 
+´´´
+To be worked out
 ´´´
 
 first lets just try read.table and confirm we get three lines that R reads in as text and converts to factors.
+
 
 ´´´
 e <- read.table("simple.txt")
